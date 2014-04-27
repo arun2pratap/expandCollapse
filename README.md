@@ -27,5 +27,7 @@ You cand see the data of collumn 1 getting grouped and with expand collapse butt
 ##Additional:
 
 You can call expandAll , collapseAll to expand all or collapse all.
+```
 $('#myHTMLTable').expandAll();
 $('#myHTMLTable').collapseAll();
+```
