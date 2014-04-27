@@ -1,4 +1,4 @@
-expandCollapse.js
+expandCollapse
 =================
 
 A Light weight plugin to expand collapse HTML table even works on top of jqGrid's.
