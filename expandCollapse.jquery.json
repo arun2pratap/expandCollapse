@@ -1,12 +1,12 @@
 {
-  "name": "expandCollape.js",
+  "name": "expandCollape",
   "title": "expandCollapse",
   "description": "Simple small 1 kb jQuery Plugin for create a hover effect.",
   "keywords": [
     "expand",
     "collapse",
 	"htmltable",
-	"group rows"
+	"grouping"
     ],
   "version": "1.0.0",
   "author": {
