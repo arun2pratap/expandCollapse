@@ -22,6 +22,7 @@
   }],
   "homepage": "https://github.com/arun2pratap/expandCollapse",
   "demo": "https://github.com/arun2pratap/expandCollapse",
+  "docs": "https://github.com/jongha/jquery-flip",
   "dependencies": {
     "jquery": ">=1.4.x"
   }
