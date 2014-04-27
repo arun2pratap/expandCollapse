@@ -1,7 +1,7 @@
 {
   "name": "expandCollapse",
   "title": "expandCollapse",
-  "description": "A Light weight plugin to expand collapse HTML table even works on top of jqGrid's.",
+  "description": "A Light weight plugin to expand collapse HTML table also works on top of jqGrid.",
   "keywords": [
     "expand",
     "collapse",
@@ -9,7 +9,7 @@
 	"grouping",
 	"groupingjqGridRows"
     ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Arun Pratap",
     "url": "https://github.com/arun2pratap/expandCollapse"
