@@ -6,7 +6,8 @@
     "expand",
     "collapse",
 	"htmltable",
-	"grouping"
+	"grouping",
+	"groupingjqGridRows"
     ],
   "version": "1.0.0",
   "author": {
