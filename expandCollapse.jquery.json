@@ -1,7 +1,7 @@
 {
   "name": "expandCollapse",
   "title": "expandCollapse",
-  "description": "Simple small 1 kb jQuery Plugin for create a hover effect.",
+  "description": "A Light weight plugin to expand collapse HTML table even works on top of jqGrid's.",
   "keywords": [
     "expand",
     "collapse",
