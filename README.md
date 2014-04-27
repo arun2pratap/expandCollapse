@@ -14,8 +14,6 @@ Call the plugin on the HTML table elements to see the effect.
 	$(selector).expandCollapse(options);
 	$('myHTMLTable').showOnHover(
 			colNumber: 1,
-            evenRowClass: 'evenRow',
-            oddRowClass: 'oddRow',
             isjqGrid: false,
             isHTMLTable: true,
 			showEmptyCell: true
