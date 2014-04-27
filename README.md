@@ -1,7 +1,7 @@
 expandCollapse
 =================
 
-A Light weight plugin to expand collapse HTML table even works on top of jqGrid's.
+A Light weight plugin to expand collapse HTML table also works on top of jqGrid.
 
 ## Demo
 Download Demo to see demo
