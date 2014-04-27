@@ -12,7 +12,7 @@ Call the plugin on the HTML table elements to see the effect.
 ##Options:
 ```javascript
 	$(selector).expandCollapse(options);
-	$('myHTMLTable').showOnHover(
+	$('#myHTMLTable').showOnHover(
 	    colNumber: 1,
             isjqGrid: false,
             isHTMLTable: true,
@@ -27,4 +27,5 @@ You cand see the data of collumn 1 getting grouped and with expand collapse butt
 ##Additional:
 
 You can call expandAll , collapseAll to expand all or collapse all.
-
+$('#myHTMLTable').expandAll();
+$('#myHTMLTable').collapseAll();
