@@ -1,0 +1,28 @@
+.expandCollapseSprites {
+	background-image:
+		url(../image/icons-sprite.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.expandIcon {
+	width: 14px;
+	height: 14px;
+	background-position: -56px -2px;
+	margin-right: 5px;
+}
+
+.collapseIcon {
+	width: 14px;
+	height: 14px;
+	background-position: -39px -2px;
+	margin-right: 5px;
+}
+
+.evenRow{
+	background: #E4E5E7;
+}
+
+.oddRow{
+	background: #EBEBEB;
+}

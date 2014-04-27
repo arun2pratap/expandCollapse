@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<link rel='stylesheet' type='text/css' href='../css/expandCollapse.css' />
+<script type='text/javascript' src='../jquery/jquery-1.7.1.min.js'></script>
+<script type='text/javascript' src='../jquery/jquery-ui-1.8.17.custom.min.js'></script>
+<script type='text/javascript' src='../expandCollapse/expandCollapse.js'></script>
+<script type='text/javascript'>
+
+	$(document).ready(function() {
+		
+		$('#plainHTMLTable').expandCollapse(
+		{			
+			colNumber: 1,
+            evenRowClass: 'evenRow',
+            oddRowClass: 'oddRow',
+            isjqGrid: false,
+            isHTMLTable: true,
+			showEmptyCell: true
+		}
+		);
+		
+	});
+
+	function expandCollapseAll(element,gridIdwithHash){	
+	var expandAll = 'Expand All';
+	var collapseAll = 'Collapse All';
+	if($(element).html().indexOf(expandAll) >= 0){
+		$(element).html(collapseAll);
+		$(gridIdwithHash).expandAll();
+	}else{
+		$(element).html(expandAll);
+		$(gridIdwithHash).collapseAll();
+	}
+}
+	
+</script>
+<style type='text/css'>
+
+#plainHTMLTable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+#plainHTMLTable th {
+	background:#b5cfd2 url('cell-blue.jpg');
+	border-width: 1px;
+	padding: 18px;
+	border-style: solid;
+	border-color: #999999;
+}
+#plainHTMLTable td {
+	background:#dcddc0 url('cell-grey.jpg');
+	border-width: 1px;
+	padding: 14px;
+	border-style: solid;
+	border-color: #999999;
+}
+</style>
+</head>
+<body>
+				
+					<div id="expandCollapseAll" style="float:left;padding-top: 37px;padding-right: 15px;">												
+						<a id="expandCollapseBtn" onclick="expandCollapseAll(this,'#plainHTMLTable');" href='javascript:void(0);' >
+							Expand All
+						</a>
+					</div>
+				<br/><br/><br/>
+<table id="plainHTMLTable">
+<tr>
+	<th>Date </th><th>Location </th><th>Time </th><th>Item </th><th>Quantity</th>
+</tr>
+<tr>
+	<td>2013-09-01</td><td>Street 1</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-01</td><td>Street 2</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-01</td><td>Street 3</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-01</td><td>Street 4</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-01</td><td>Street 1</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-02</td><td>Street 2</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-02</td><td>Street 3</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-03</td><td>Street 4</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-03</td><td>Street 1</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-04</td><td>Street 2</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-04</td><td>Street 3</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-05</td><td>Street 4</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-05</td><td>Street 1</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-05</td><td>Street 2</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-06</td><td>Street 3</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+<tr>
+	<td>2013-09-06</td><td>Street 4</td><td>12:30</td><td>Veg Pizza</td><td>1</td>
+</tr>
+</table>
+</body>
+</html>
