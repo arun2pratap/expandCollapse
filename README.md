@@ -12,12 +12,12 @@ Call the plugin on the HTML table elements to see the effect.
 ##Options:
 ```javascript
 	$(selector).expandCollapse(options);
-	$('#myHTMLTable').showOnHover(
+	$('#myHTMLTable').expandCollapse({
 	    colNumber: 1,
             isjqGrid: false,
             isHTMLTable: true,
 	    showEmptyCell: true
-	}{);
+	});
 ```
 will group all the rows based on the data of Collumn 1 "colNumber: 1".
 
